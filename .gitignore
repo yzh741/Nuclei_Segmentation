@@ -1,0 +1,16 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea/
+!/111.py
+!/222.py
+!/B.csv
+!/G.csv
+!/R.csv
+!/replay_pid9136.log
+!/experiments/
+!/he_to_binary_mask_final.m
+!/qualification.py
+!/train_atu.py
