@@ -27,3 +27,4 @@ using `split_patches.py`, you only need to do this for your train_set
 
 ### Model training and testing
 To training a model, set related parameters in the file `options.p` and run the script sh `scripts/train.sh`
+run `scripts/test_same.sh` or `scripts/test_diff.sh` to evaluate the two test sets
