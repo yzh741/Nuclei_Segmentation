@@ -12,12 +12,13 @@ Note. The authors of the Multi-Organ dataset replaced some images in the dataset
 
 ## Usage
 
-* For MultiOrgan dataset, generate the instance labels from the .xml annotation files. Use uint16 instead of 
-uint8 to assign a unique integer for each nucleus.
+* arrange data like what my google drive did
 
-* Generate the ternary label from each instance label using `create_ternary_labels` method in `prepare_data.py`.
+* For MultiOrgan dataset, generate the instance labels from the .xml annotation files. Use `xml2label.py`.
 
-* Compute the weight map from each instance label using `weight_map.m`.
+* Generate the ternary label from each instance label using `ternary_img_gen`.
+
+* if you want to use weight_map,Compute the weight map from each instance label using `weight_map.m`.
 
 * For MultiOrgan dataset, perform color normalization in all images to reduce the color variance using `color_norm` 
 method in `prepare_data.py`.
