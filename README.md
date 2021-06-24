@@ -20,8 +20,10 @@ Note. The authors of the Multi-Organ dataset replaced some images in the dataset
 
 * if you want to use weight_map,Compute the weight map from each instance label using `weight_map.m`.
 
-* For MultiOrgan dataset, perform color normalization in all images to reduce the color variance using `color_norm` 
-method in `prepare_data.py`.
+* For MultiOrgan dataset, perform color normalization in all images to reduce the color variance using `color_norm.py` .
 
 * For MultiOrgan dataset, split each large training image/label/weight_map into 16 small 250x250 patches 
-using `split_patches` method in `prepare_data.py`
+using `split_patches.py`, you only need to do this for your train_set 
+
+### Model training and testing
+To training a model, set related parameters in the file `options.p` and run the script sh `scripts/train.sh`
